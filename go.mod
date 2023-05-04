@@ -1,3 +1,3 @@
-module github.com/ubuntus-bros/go-yt
+module github.com/ubuntu-bros/go-yt
 
 go 1.20
