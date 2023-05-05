@@ -3,14 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/ubuntu-bros/go-yt/variables"
+	"github.com/ubuntu-bros/go-yt/hello"
 )
 
 func main() {
 	fmt.Println("Hey! Ubuntu Bros!")
-	variables.MuestroEnteros()
-	variables.RestoVariables()
+	hello.Hello()
 
-	estado, texto := variables.ConviertoATexto(1538)
-	fmt.Println(estado, texto)
 }
