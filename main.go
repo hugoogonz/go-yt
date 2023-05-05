@@ -9,4 +9,8 @@ import (
 func main() {
 	fmt.Println("Hey! Ubuntu Bros!")
 	variables.MuestroEnteros()
+	variables.RestoVariables()
+
+	estado, texto := variables.ConviertoATexto(1538)
+	fmt.Println(estado, texto)
 }
