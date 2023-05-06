@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 )
 
 func Conversions() {
@@ -13,13 +14,12 @@ func Conversions() {
 
 	reader := bufio.NewReader(os.Stdin)
 	input, _ := reader.ReadString('\n')
-	numRating, err := strconv.ParseFloat(input, 64)
+	fmt.Println("Thanks for rating", input)
+	numRating, err := strconv.ParseFloat(strings.TrimSpace(input), 64)
 
 	if err != nil {
 		panic("Oh no! Something went wrong")
 	}
 
-	fmt.Println("Thanks for rating", input)
-
-	fmt.Println(numRating, err)
+	fmt.Println("Add 1 to your rating: ", numRating+1)
 }
