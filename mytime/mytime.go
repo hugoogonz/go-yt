@@ -16,4 +16,5 @@ func MyTime() {
 
 	createdDate := time.Date(2015, time.September, 25, 18, 23, 0, 0, time.Local)
 	fmt.Println(createdDate.Format("01-02-2006 Monday"))
+
 }

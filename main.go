@@ -6,6 +6,7 @@ import (
 	"github.com/ubuntu-bros/go-yt/conversions"
 	"github.com/ubuntu-bros/go-yt/hello"
 	"github.com/ubuntu-bros/go-yt/mytime"
+	"github.com/ubuntu-bros/go-yt/pointers"
 	"github.com/ubuntu-bros/go-yt/userinput"
 	"github.com/ubuntu-bros/go-yt/variables"
 )
@@ -23,4 +24,6 @@ func main() {
 	conversions.Conversions()
 	// 05-mytime
 	mytime.MyTime()
+	// 06-pointers
+	pointers.Pointers()
 }
