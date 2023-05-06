@@ -3,6 +3,7 @@ package pointers
 import "fmt"
 
 func Pointers() {
+	// https://www.geeksforgeeks.org/pointers-in-golang/
 	fmt.Println("Welcome to a class on pointers")
 
 	// var mypointer *int
