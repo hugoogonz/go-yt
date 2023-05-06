@@ -8,6 +8,7 @@ import (
 	"github.com/ubuntu-bros/go-yt/hello"
 	"github.com/ubuntu-bros/go-yt/mytime"
 	"github.com/ubuntu-bros/go-yt/pointers"
+	"github.com/ubuntu-bros/go-yt/slices"
 	"github.com/ubuntu-bros/go-yt/userinput"
 	"github.com/ubuntu-bros/go-yt/variables"
 )
@@ -29,4 +30,6 @@ func main() {
 	pointers.Pointers()
 	// 07-arrays
 	arrays.MyArray()
+	// 08-slices
+	slices.MySlices()
 }
