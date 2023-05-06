@@ -18,7 +18,7 @@ func MySlices() {
 	coursesList := []string{"Python", "Golang", "Vue", "Gin Gonic", "SolidJs"}
 	fmt.Println(coursesList)
 	fmt.Println(coursesList[:2]) // [Python Golang]
-	fmt.Println(coursesList[2:]) // [Python Golang]
+	fmt.Println(coursesList[2:]) // [Vue Gin Gonic SolidJs]
 
 	// Obtener el índice correspondiente a "Vue"
 	startIndex := -1
@@ -30,6 +30,6 @@ func MySlices() {
 	}
 	// Imprimir los elementos desde "Vue" hasta el final
 	if startIndex != -1 {
-		fmt.Println(coursesList[startIndex:])
+		fmt.Println(coursesList[startIndex:]) // [Vue Gin Gonic SolidJs]
 	}
 }
