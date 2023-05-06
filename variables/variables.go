@@ -7,6 +7,8 @@ var Country string
 
 var jwtToken string
 
+const API_URL = "https://mysite/api/v1/users"
+
 func Variables() {
 	Name = "John Doe"
 	Country = "Germany"
@@ -15,6 +17,9 @@ func Variables() {
 	jwtToken = "949d1u22cbffbrarjh182eig55721odj"
 	fmt.Println(jwtToken)
 	fmt.Printf("Variable is of type: %T\n", jwtToken)
+
+	fmt.Println(API_URL)
+	fmt.Printf("Variable is of type: %T\n", API_URL)
 
 	name := "Tortugita"
 	country := "Argentina"
