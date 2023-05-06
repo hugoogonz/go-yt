@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/ubuntu-bros/go-yt/arrays"
 	"github.com/ubuntu-bros/go-yt/conversions"
 	"github.com/ubuntu-bros/go-yt/hello"
 	"github.com/ubuntu-bros/go-yt/mytime"
@@ -26,4 +27,6 @@ func main() {
 	mytime.MyTime()
 	// 06-pointers
 	pointers.Pointers()
+	// 07-arrays
+	arrays.MyArray()
 }
