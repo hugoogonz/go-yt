@@ -6,6 +6,7 @@ import (
 	"github.com/ubuntu-bros/go-yt/arrays"
 	"github.com/ubuntu-bros/go-yt/conversions"
 	"github.com/ubuntu-bros/go-yt/hello"
+	"github.com/ubuntu-bros/go-yt/ifelse"
 	"github.com/ubuntu-bros/go-yt/maps"
 	"github.com/ubuntu-bros/go-yt/mytime"
 	"github.com/ubuntu-bros/go-yt/pointers"
@@ -38,4 +39,6 @@ func main() {
 	maps.MyMaps()
 	// 10-structs
 	structs.MyStructs()
+	// 11-ifelse
+	ifelse.IfElse()
 }
