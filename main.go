@@ -6,6 +6,7 @@ import (
 	"github.com/ubuntu-bros/go-yt/arrays"
 	"github.com/ubuntu-bros/go-yt/conversions"
 	"github.com/ubuntu-bros/go-yt/hello"
+	"github.com/ubuntu-bros/go-yt/maps"
 	"github.com/ubuntu-bros/go-yt/mytime"
 	"github.com/ubuntu-bros/go-yt/pointers"
 	"github.com/ubuntu-bros/go-yt/slices"
@@ -32,4 +33,6 @@ func main() {
 	arrays.MyArray()
 	// 08-slices
 	slices.MySlices()
+	// 09-maps
+	maps.MyMaps()
 }
