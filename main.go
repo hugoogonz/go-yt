@@ -10,6 +10,7 @@ import (
 	"github.com/ubuntu-bros/go-yt/mytime"
 	"github.com/ubuntu-bros/go-yt/pointers"
 	"github.com/ubuntu-bros/go-yt/slices"
+	"github.com/ubuntu-bros/go-yt/structs"
 	"github.com/ubuntu-bros/go-yt/userinput"
 	"github.com/ubuntu-bros/go-yt/variables"
 )
@@ -35,4 +36,6 @@ func main() {
 	slices.MySlices()
 	// 09-maps
 	maps.MyMaps()
+	// 10-structs
+	structs.MyStructs()
 }
