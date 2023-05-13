@@ -55,4 +55,7 @@ func main() {
 	// 14-functions
 	fmt.Println(functions.MakeNegative(5))
 	fmt.Println(functions.MakeNegative(-5))
+
+	// 15-methods
+
 }
