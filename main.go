@@ -7,11 +7,13 @@ import (
 	"github.com/ubuntu-bros/go-yt/conversions"
 	"github.com/ubuntu-bros/go-yt/hello"
 	"github.com/ubuntu-bros/go-yt/ifelse"
+	"github.com/ubuntu-bros/go-yt/loops"
 	"github.com/ubuntu-bros/go-yt/maps"
 	"github.com/ubuntu-bros/go-yt/mytime"
 	"github.com/ubuntu-bros/go-yt/pointers"
 	"github.com/ubuntu-bros/go-yt/slices"
 	"github.com/ubuntu-bros/go-yt/structs"
+	"github.com/ubuntu-bros/go-yt/switchcase"
 	"github.com/ubuntu-bros/go-yt/userinput"
 	"github.com/ubuntu-bros/go-yt/variables"
 )
@@ -41,4 +43,8 @@ func main() {
 	structs.MyStructs()
 	// 11-ifelse
 	ifelse.IfElse()
+	// 12-switchcase
+	switchcase.SwitchCase()
+	// 13-loops
+	loops.Loops()
 }
