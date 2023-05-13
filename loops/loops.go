@@ -18,7 +18,7 @@ func Loops() {
 
 	for _, c := range countries {
 		if c == "Paraguay" {
-			fmt.Println("WaraniApp es una startup en Latinoamerica")
+			fmt.Println("Clasipar es una startup en Latinoamerica")
 		}
 	}
 
