@@ -5,6 +5,7 @@ import (
 
 	"github.com/ubuntu-bros/go-yt/arrays"
 	"github.com/ubuntu-bros/go-yt/conversions"
+	"github.com/ubuntu-bros/go-yt/functions"
 	"github.com/ubuntu-bros/go-yt/hello"
 	"github.com/ubuntu-bros/go-yt/ifelse"
 	"github.com/ubuntu-bros/go-yt/loops"
@@ -50,4 +51,8 @@ func main() {
 	arr := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15}
 	result := loops.CountPositivesSumNegatives(arr)
 	fmt.Println(result)
+
+	// 14-functions
+	fmt.Println(functions.MakeNegative(5))
+	fmt.Println(functions.MakeNegative(-5))
 }
